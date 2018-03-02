@@ -1,0 +1,23 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "4loop",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.16.2",
+    "finalhandler": "^1.1.0",
+    "method-override": "^2.3.10",
+    "request": "^2.83.0",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.13.2"
+  }
+}
