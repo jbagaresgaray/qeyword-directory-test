@@ -22,7 +22,6 @@ var router = express.Router({
 
 require(application.utils + 'helper')(server, config);
 require(application.config + 'express')(app, config);
-// Routes
 require(application.routes + '/')(app, config);
 
 module.exports = app;
